@@ -1,0 +1,27 @@
+{
+    "name": "LeWall",
+    "version": "1.0.0",
+    "description": "LeWall",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "materialType.ts",
+        "LeWall.ts",
+        "main.ts",
+        "_locales/zh-cn/LeWall-strings.json",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
